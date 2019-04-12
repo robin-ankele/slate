@@ -6,7 +6,7 @@ language_tabs: # must be one of https://git.io/vQNgJ
   - shell
 
 toc_footers:
-  - <a href='https://www.eyn.vision/'>Sign Up for a Developer Key</a>
+  - <a href='mailto:sales@eyn.vision'>Request a Developer Key</a>
 
 includes:
   - errors
@@ -37,7 +37,7 @@ headers = {'Accept': '*/*',
 
 > Make sure to replace `username` and `password` with your AWS Cognito credentials. Replace `<cognito_pool_id>` with `eu-west-2_8ZNdnSazL` and `<cognito_client_id>` with `4sn0g6boc405tspau0lfl0aiba`.
 
-EYN uses API keys to allow access to the API. You can register to get a EYN API key at our [website](https://www.eyn.vision/).
+EYN uses API keys to allow access to the API. Request a EYN API key [here](mailto:sales@eyn.vision).
 
 ENY expects a API key to be included in all API requests to the server. Further, EYN API uses AWS Cognito to authenticate a user. EYN API expects a header to all API requests that looks like the following:
 
